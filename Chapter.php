@@ -1,7 +1,7 @@
 <?php
 require_once 'Connect.php';
-$table = 'Divisions';
-$primaryKey = 'divisionID';
+$table = 'Chapters';
+$primaryKey = 'chapterID';
 $conn = new Connect();
 $dbconn = $conn->conn();
 // $dbconn->debug = true;
@@ -15,9 +15,6 @@ $operationType = (isset($_REQUEST['operationType'])) ? $_REQUEST['operationType'
 switch($operationType){
 case 'fetch':
 	$where = '1=1';
-	if(isset($_REQUEST['groupID'])){
-		$where .= ' and groupID = ' . intval($_REQUEST['groupID']);
-	}
 	break;
 case 'add':
 	$data = array('table' => $table, 'primaryKey' => $primaryKey, 'newvals' => $_REQUEST);

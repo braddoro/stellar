@@ -11,10 +11,13 @@ $classes[] = "Navigation.js";
 $classes[] = "Shared.js";
 $classes[] = "ContextMenu.js";
 $classes[] = "Library.js";
+$classes[] = "Chapter.js";
 $classes[] = "Class.js";
 $classes[] = "Division.js";
 $classes[] = "Group.js";
 $classes[] = "Item.js";
+$classes[] = "Attribute.js";
+$classes[] = "ItemAttribute.js";
 $classes[] = "ShowInfo.js";
 echo "<html>
 <head>

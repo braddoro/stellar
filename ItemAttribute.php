@@ -1,7 +1,7 @@
 <?php
 require_once 'Connect.php';
-$table = 'Divisions';
-$primaryKey = 'divisionID';
+$table = 'ItemAttributes';
+$primaryKey = 'itemAttributeID';
 $conn = new Connect();
 $dbconn = $conn->conn();
 // $dbconn->debug = true;

@@ -1,7 +1,7 @@
 <?php
 require_once 'Connect.php';
-$table = 'Classes';
-$primaryKey = 'classID';
+$table = 'Items';
+$primaryKey = 'itemID';
 $conn = new Connect();
 $dbconn = $conn->conn();
 // $dbconn->debug = true;

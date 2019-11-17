@@ -8,9 +8,13 @@ $classes = array();
 $classes[] = "ClassDefaults.js";
 $classes[] = "Desktop.js";
 $classes[] = "Navigation.js";
+$classes[] = "Shared.js";
+$classes[] = "ContextMenu.js";
+$classes[] = "Library.js";
 $classes[] = "Class.js";
 $classes[] = "Division.js";
 $classes[] = "Group.js";
+$classes[] = "Item.js";
 $classes[] = "ShowInfo.js";
 echo "<html>
 <head>
